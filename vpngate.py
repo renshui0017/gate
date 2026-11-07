@@ -59,7 +59,7 @@ PLACEHOLDER_MARKERS = ("你的", "YOUR_", "YOUR-", "example.com", "yourdomain")
 # 静态优选域名池（可用 EDGE_HOSTS 整体覆盖）
 DEFAULT_EDGE_HOSTS =[
     "cdn.7zz.cn:443",
-    "auto.dolby.dpdns.org:443",  
+    "auto.dolby.dpdns.org:443"
 ]
 
 DATA_CENTER_ORG_KEYWORDS = [
