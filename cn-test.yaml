@@ -1,0 +1,67 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: info
+proxies:
+  - {name: 美国-住宅-01·入口A, server: cdn.7zz.cn, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCgIBBQBTUgpZBRlXFlMMVBUDXFBDEwEWElpCWRpYVVwZBxk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+  - {name: 美国-住宅-01·入口B, server: auto.dolby.dpdns.org, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCgIBBQBTUgpZBRlXFlMMVBUDXFBDEwEWElpCWRpYVVwZBxk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+  - {name: 美国-住宅-01·入口C, server: 104.17.22.231, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCgIBBQBTUgpZBRlXFlMMVBUDXFBDEwEWElpCWRpYVVwZBxk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+  - {name: 美国-住宅-01·入口D, server: 104.19.34.37, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCgIBBQBTUgpZBRlXFlMMVBUDXFBDEwEWElpCWRpYVVwZBxk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+  - {name: 韩国-住宅-01·入口A, server: cdn.7zz.cn, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCg4NBA5TUgtTABlXFlMMVBUDXFBDEwEWElpCWRpYVV0fBhk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+  - {name: 韩国-住宅-01·入口B, server: auto.dolby.dpdns.org, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCg4NBA5TUgtTABlXFlMMVBUDXFBDEwEWElpCWRpYVV0fBhk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+  - {name: 韩国-住宅-01·入口C, server: 104.17.22.231, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCg4NBA5TUgtTABlXFlMMVBUDXFBDEwEWElpCWRpYVV0fBhk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+  - {name: 韩国-住宅-01·入口D, server: 104.19.34.37, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCg4NBA5TUgtTABlXFlMMVBUDXFBDEwEWElpCWRpYVV0fBhk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+  - {name: 韩国-住宅-02·入口A, server: cdn.7zz.cn, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCgMNBgJaUQFXBxlXFlMMVBUDXFBDEwEWElpCWRpYVVYcBBk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+  - {name: 韩国-住宅-02·入口B, server: auto.dolby.dpdns.org, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCgMNBgJaUQFXBxlXFlMMVBUDXFBDEwEWElpCWRpYVVYcBBk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+  - {name: 韩国-住宅-02·入口C, server: 104.17.22.231, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCgMNBgJaUQFXBxlXFlMMVBUDXFBDEwEWElpCWRpYVVYcBBk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+  - {name: 韩国-住宅-02·入口D, server: 104.19.34.37, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCgMNBgJaUQFXBxlXFlMMVBUDXFBDEwEWElpCWRpYVVYcBBk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+  - {name: 日本-住宅-09·入口A, server: cdn.7zz.cn, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCg4DBQFWUQpRDBlXFlMMVBUDXFBDEwEWElpCWRpYVVAcDhk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+  - {name: 日本-住宅-09·入口B, server: auto.dolby.dpdns.org, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCg4DBQFWUQpRDBlXFlMMVBUDXFBDEwEWElpCWRpYVVAcDhk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+  - {name: 日本-住宅-09·入口C, server: 104.17.22.231, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCg4DBQFWUQpRDBlXFlMMVBUDXFBDEwEWElpCWRpYVVAcDhk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+  - {name: 日本-住宅-09·入口D, server: 104.19.34.37, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCg4DBQFWUQpRDBlXFlMMVBUDXFBDEwEWElpCWRpYVVAcDhk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+proxy-groups:
+  - name: 🚀 测试选择
+    type: select
+    proxies:
+      - ♻️ 自动测速
+      - 美国-住宅-01·入口A
+      - 美国-住宅-01·入口B
+      - 美国-住宅-01·入口C
+      - 美国-住宅-01·入口D
+      - 韩国-住宅-01·入口A
+      - 韩国-住宅-01·入口B
+      - 韩国-住宅-01·入口C
+      - 韩国-住宅-01·入口D
+      - 韩国-住宅-02·入口A
+      - 韩国-住宅-02·入口B
+      - 韩国-住宅-02·入口C
+      - 韩国-住宅-02·入口D
+      - 日本-住宅-09·入口A
+      - 日本-住宅-09·入口B
+      - 日本-住宅-09·入口C
+      - 日本-住宅-09·入口D
+  - name: ♻️ 自动测速
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 15000
+    tolerance: 100
+    proxies:
+      - 美国-住宅-01·入口A
+      - 美国-住宅-01·入口B
+      - 美国-住宅-01·入口C
+      - 美国-住宅-01·入口D
+      - 韩国-住宅-01·入口A
+      - 韩国-住宅-01·入口B
+      - 韩国-住宅-01·入口C
+      - 韩国-住宅-01·入口D
+      - 韩国-住宅-02·入口A
+      - 韩国-住宅-02·入口B
+      - 韩国-住宅-02·入口C
+      - 韩国-住宅-02·入口D
+      - 日本-住宅-09·入口A
+      - 日本-住宅-09·入口B
+      - 日本-住宅-09·入口C
+      - 日本-住宅-09·入口D
+rules:
+  - MATCH,🚀 测试选择
