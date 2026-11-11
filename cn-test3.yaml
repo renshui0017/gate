@@ -1,0 +1,19 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: info
+proxies:
+  - {name: 美国-住宅-01·本站域名, server: wwc.linzheng888.kdns.fr, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCgIBBQBTUgpZBRlXFlMMVBUDXFBDEwEWElpCWRpYVVwZBxk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+  - {name: 韩国-住宅-01·本站域名, server: wwc.linzheng888.kdns.fr, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCg4NBA5TUgtTABlXFlMMVBUDXFBDEwEWElpCWRpYVV0fBhk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+  - {name: 韩国-住宅-02·本站域名, server: wwc.linzheng888.kdns.fr, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCgMNBgJaUQFXBxlXFlMMVBUDXFBDEwEWElpCWRpYVVYcBBk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+  - {name: 日本-住宅-09·本站域名, server: wwc.linzheng888.kdns.fr, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCg4DBQFWUQpRDBlXFlMMVBUDXFBDEwEWElpCWRpYVVAcDhk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+proxy-groups:
+  - name: 🚀 测试选择
+    type: select
+    proxies:
+      - 美国-住宅-01·本站域名
+      - 韩国-住宅-01·本站域名
+      - 韩国-住宅-02·本站域名
+      - 日本-住宅-09·本站域名
+rules:
+  - MATCH,🚀 测试选择
