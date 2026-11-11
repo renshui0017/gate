@@ -1,0 +1,79 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: info
+proxies:
+  - {name: 美国-住宅-01·chrono24.com, server: chrono24.com, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCgIBBQBTUgpZBRlXFlMMVBUDXFBDEwEWElpCWRpYVVwZBxk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+  - {name: 美国-住宅-01·email.lg.com, server: email.lg.com, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCgIBBQBTUgpZBRlXFlMMVBUDXFBDEwEWElpCWRpYVVwZBxk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+  - {name: 美国-住宅-01·www.mfyx.cn, server: www.mfyx.cn, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCgIBBQBTUgpZBRlXFlMMVBUDXFBDEwEWElpCWRpYVVwZBxk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+  - {name: 美国-住宅-01·224322.xyz, server: 224322.xyz, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCgIBBQBTUgpZBRlXFlMMVBUDXFBDEwEWElpCWRpYVVwZBxk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+  - {name: 美国-住宅-01·store.rg-adguard.net, server: store.rg-adguard.net, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCgIBBQBTUgpZBRlXFlMMVBUDXFBDEwEWElpCWRpYVVwZBxk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+  - {name: 韩国-住宅-01·chrono24.com, server: chrono24.com, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCg4NBA5TUgtTABlXFlMMVBUDXFBDEwEWElpCWRpYVV0fBhk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+  - {name: 韩国-住宅-01·email.lg.com, server: email.lg.com, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCg4NBA5TUgtTABlXFlMMVBUDXFBDEwEWElpCWRpYVV0fBhk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+  - {name: 韩国-住宅-01·www.mfyx.cn, server: www.mfyx.cn, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCg4NBA5TUgtTABlXFlMMVBUDXFBDEwEWElpCWRpYVV0fBhk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+  - {name: 韩国-住宅-01·224322.xyz, server: 224322.xyz, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCg4NBA5TUgtTABlXFlMMVBUDXFBDEwEWElpCWRpYVV0fBhk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+  - {name: 韩国-住宅-01·store.rg-adguard.net, server: store.rg-adguard.net, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCg4NBA5TUgtTABlXFlMMVBUDXFBDEwEWElpCWRpYVV0fBhk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+  - {name: 韩国-住宅-02·chrono24.com, server: chrono24.com, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCgMNBgJaUQFXBxlXFlMMVBUDXFBDEwEWElpCWRpYVVYcBBk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+  - {name: 韩国-住宅-02·email.lg.com, server: email.lg.com, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCgMNBgJaUQFXBxlXFlMMVBUDXFBDEwEWElpCWRpYVVYcBBk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+  - {name: 韩国-住宅-02·www.mfyx.cn, server: www.mfyx.cn, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCgMNBgJaUQFXBxlXFlMMVBUDXFBDEwEWElpCWRpYVVYcBBk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+  - {name: 韩国-住宅-02·224322.xyz, server: 224322.xyz, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCgMNBgJaUQFXBxlXFlMMVBUDXFBDEwEWElpCWRpYVVYcBBk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+  - {name: 韩国-住宅-02·store.rg-adguard.net, server: store.rg-adguard.net, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCgMNBgJaUQFXBxlXFlMMVBUDXFBDEwEWElpCWRpYVVYcBBk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+  - {name: 日本-住宅-09·chrono24.com, server: chrono24.com, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCg4DBQFWUQpRDBlXFlMMVBUDXFBDEwEWElpCWRpYVVAcDhk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+  - {name: 日本-住宅-09·email.lg.com, server: email.lg.com, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCg4DBQFWUQpRDBlXFlMMVBUDXFBDEwEWElpCWRpYVVAcDhk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+  - {name: 日本-住宅-09·www.mfyx.cn, server: www.mfyx.cn, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCg4DBQFWUQpRDBlXFlMMVBUDXFBDEwEWElpCWRpYVVAcDhk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+  - {name: 日本-住宅-09·224322.xyz, server: 224322.xyz, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCg4DBQFWUQpRDBlXFlMMVBUDXFBDEwEWElpCWRpYVVAcDhk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+  - {name: 日本-住宅-09·store.rg-adguard.net, server: store.rg-adguard.net, port: 443, type: vless, uuid: 578f6b3b-2571-4b50-8bdd-6d2d6506be9a, tls: true, skip-cert-verify: false, servername: wwc.linzheng888.kdns.fr, client-fingerprint: chrome, network: ws, ws-opts: {path: /video/ThVMH0YHEVgPQUZDQQ8YQEBDSEoMBQlIFF4QEkZbEhpAFVgSRkBXFFJACUBbQlsVHQ9cDUZEQ1kPAUYXFBJCCg4DBQFWUQpRDBlXFlMMVBUDXFBDEwEWElpCWRpYVVAcDhk=, headers: {Host: wwc.linzheng888.kdns.fr}}}
+proxy-groups:
+  - name: 🚀 测试选择
+    type: select
+    proxies:
+      - ♻️ 自动测速
+      - 美国-住宅-01·chrono24.com
+      - 美国-住宅-01·email.lg.com
+      - 美国-住宅-01·www.mfyx.cn
+      - 美国-住宅-01·224322.xyz
+      - 美国-住宅-01·store.rg-adguard.net
+      - 韩国-住宅-01·chrono24.com
+      - 韩国-住宅-01·email.lg.com
+      - 韩国-住宅-01·www.mfyx.cn
+      - 韩国-住宅-01·224322.xyz
+      - 韩国-住宅-01·store.rg-adguard.net
+      - 韩国-住宅-02·chrono24.com
+      - 韩国-住宅-02·email.lg.com
+      - 韩国-住宅-02·www.mfyx.cn
+      - 韩国-住宅-02·224322.xyz
+      - 韩国-住宅-02·store.rg-adguard.net
+      - 日本-住宅-09·chrono24.com
+      - 日本-住宅-09·email.lg.com
+      - 日本-住宅-09·www.mfyx.cn
+      - 日本-住宅-09·224322.xyz
+      - 日本-住宅-09·store.rg-adguard.net
+  - name: ♻️ 自动测速
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    timeout: 15000
+    tolerance: 100
+    proxies:
+      - 美国-住宅-01·chrono24.com
+      - 美国-住宅-01·email.lg.com
+      - 美国-住宅-01·www.mfyx.cn
+      - 美国-住宅-01·224322.xyz
+      - 美国-住宅-01·store.rg-adguard.net
+      - 韩国-住宅-01·chrono24.com
+      - 韩国-住宅-01·email.lg.com
+      - 韩国-住宅-01·www.mfyx.cn
+      - 韩国-住宅-01·224322.xyz
+      - 韩国-住宅-01·store.rg-adguard.net
+      - 韩国-住宅-02·chrono24.com
+      - 韩国-住宅-02·email.lg.com
+      - 韩国-住宅-02·www.mfyx.cn
+      - 韩国-住宅-02·224322.xyz
+      - 韩国-住宅-02·store.rg-adguard.net
+      - 日本-住宅-09·chrono24.com
+      - 日本-住宅-09·email.lg.com
+      - 日本-住宅-09·www.mfyx.cn
+      - 日本-住宅-09·224322.xyz
+      - 日本-住宅-09·store.rg-adguard.net
+rules:
+  - MATCH,🚀 测试选择
